@@ -1,0 +1,34 @@
+body{
+  background-color: #f88379;
+}
+.heading{
+  margin:auto;
+  width:50%;
+  padding: 10px;
+  font-size:70px;
+  color:#ffffff;
+  text-align: center;
+}
+body {margin:0}
+
+.icon-bar {
+    width: 90px;
+    background-color: #555;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #c2c2a3;
+}
