@@ -1,0 +1,29 @@
+body{
+  background-color: #f88379;
+}
+
+.heading{
+  margin:auto;
+  width:50%;
+  padding: 10px;
+  font-size:70px;
+  color:#ffffff;
+  text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
